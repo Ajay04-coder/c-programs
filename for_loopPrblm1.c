@@ -8,10 +8,8 @@
 #include<stdio.h>
 int main(){
     int i;
-    for (i=0;i<=25;i+=5){
-        printf("distance travelled is:%d cm\n",i);
-    
-
+    for (i = 1; i <= 5; i++) {
+        printf("Step %d: %d cm\n", i, i * 10);
     }
 return 0;
 }
